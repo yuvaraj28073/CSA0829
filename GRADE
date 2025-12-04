@@ -1,0 +1,11 @@
+mark=float(input("Enter your marks"))
+if mark>=90 and mark<=100:
+    print ("your grade:A")
+if mark>=80 and mark<=88:
+    print ("your grade:B")
+if mark>=70 and mark<=79:
+    print ("your grade:C")
+if mark>=60 and mark<=69:
+    print ("your grade:D")
+if mark<60 and mark>=0:
+    print ("you failed:")
